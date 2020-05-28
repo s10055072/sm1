@@ -8,7 +8,7 @@
 	"Version"	"1"
 
 	// These values control how the campaign shows up in the campaign list and the in-game UI.
-	"DisplayTitle"	"My Campaign!"
+	"DisplayTitle"	"SM1"
 	"Description"	"An epic tale of zombies getting shot in the head."
 	"Author"	"s10055072"
 
@@ -23,12 +23,12 @@
 
 	// A list of melee weapons that are allowed to spawn in the campaign. 
 	// The knife is only available for players with the German version.
-	//"meleeweapons"	"electric_guitar;frying_pan;fireaxe;crowbar;cricket_bat;katana;baseball_bat;golfclub;knife"
+	"meleeweapons"	"frying_pan;fireaxe;crowbar"
 
 	// Set these options to "1" to enable the effects.
 	"allow_cola"		"0"	// Allows the Dead Center cola bottles to spawn.
-	"no_wpn_restore"	"0"	// On player wipe, don't keep any weapons.
-	"no_female_boomers"	"0"	// Disables spawning of the Boomette.
+	"no_wpn_restore"	"1"	// On player wipe, don't keep any weapons.
+	"no_female_boomers"	"1"	// Disables spawning of the Boomette.
 	"no_cs_weapons"		"0"	// Disables spawning of the German version CS weapons.
 	"allow_diesel"		"0"	// Allows the Hard Rain Diesel cans to be used.
 
