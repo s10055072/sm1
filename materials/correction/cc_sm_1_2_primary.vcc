@@ -1,0 +1,105 @@
+<!-- dmx encoding keyvalues2 1 format dmx 1 -->
+"DmeColorCorrectionOperatorList"
+{
+	"id" "elementid" "6eae5397-1d0f-4e4b-9a2b-77c52900a17f"
+	"operators" "element_array" 
+	[
+		"CDmeColorCorrectionCurvesOp"
+		{
+			"id" "elementid" "6237ee38-b20e-42cf-a50d-1effa52bb366"
+			"blendFactor" "float" "1"
+			"channelMask" "int" "7"
+			"controlPoints" "vector3_array" 
+			[
+				"0 0 0",
+				"0.3664921522 0.4659686089 0",
+				"0.7643979192 0.8062827587 0",
+				"1 1 0"
+			]
+			"enabled" "bool" "1"
+			"name" "string" "Curves"
+		},
+		"CDmeColorCorrectionLevelsOp"
+		{
+			"id" "elementid" "0897a95d-9725-4bc9-9252-93de474921ef"
+			"blendFactor" "float" "1"
+			"channelMask" "int" "7"
+			"enabled" "bool" "1"
+			"maxInputLevel" "float" "1"
+			"maxOutputLevel" "float" "1"
+			"midInputLevel" "float" "0.4078431726"
+			"minInputLevel" "float" "0"
+			"minOutputLevel" "float" "0"
+			"name" "string" "Levels"
+		},
+		"CDmeColorCorrectionSelectedHSVOp"
+		{
+			"id" "elementid" "9d50d955-e0d1-4e3d-b95e-2e5cc0de8ce2"
+			"blendFactor" "float" "1"
+			"colorize" "bool" "0"
+			"deltaHSV" "vector3" "0 0.1725490242 -0.0039215689"
+			"enabled" "bool" "1"
+			"fuzziness" "float" "0"
+			"invertSelection" "bool" "0"
+			"name" "string" "HSV"
+			"selectedHSVs" "vector3_array" 
+			[
+				"27.727273941 0.9924812317 0.521568656"
+			]
+			"selectedRGBs" "vector3_array" 
+			[
+				"0.521568656 0.2431372702 0.0039215689"
+			]
+			"selectionMethod" "int" "2"
+			"tolerance" "float" "0.1725490242"
+		},
+		"CDmeColorCorrectionColorBalanceOp"
+		{
+			"id" "elementid" "7536cfbe-62c0-4588-9816-b798261fffeb"
+			"blendFactor" "float" "1"
+			"cyanRedBalance" "float_array" 
+			[
+				"-13",
+				"-5",
+				"0"
+			]
+			"enabled" "bool" "1"
+			"magentaGreenBalance" "float_array" 
+			[
+				"-11",
+				"-36",
+				"0"
+			]
+			"name" "string" "Balance"
+			"preserveLuminosity" "bool" "1"
+			"yellowBlueBalance" "float_array" 
+			[
+				"-11",
+				"-37",
+				"0"
+			]
+		},
+		"CDmeColorCorrectionSelectedHSVOp"
+		{
+			"id" "elementid" "aee8829b-b58e-40dd-b9de-b45ab2b8dde3"
+			"blendFactor" "float" "1"
+			"colorize" "bool" "0"
+			"deltaHSV" "vector3" "0 -0.054901965 0"
+			"enabled" "bool" "1"
+			"fuzziness" "float" "0"
+			"invertSelection" "bool" "0"
+			"name" "string" "HSV"
+			"selectedHSVs" "vector3_array" 
+			[
+				"334.6666870117 0.4128440619 0.4274510145"
+			]
+			"selectedRGBs" "vector3_array" 
+			[
+				"0.4274510145 0.250980407 0.3254902065"
+			]
+			"selectionMethod" "int" "3"
+			"tolerance" "float" "0.2000000179"
+		}
+	]
+}
+

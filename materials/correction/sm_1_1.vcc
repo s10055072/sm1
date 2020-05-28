@@ -1,0 +1,103 @@
+<!-- dmx encoding keyvalues2 1 format dmx 1 -->
+"DmeColorCorrectionOperatorList"
+{
+	"id" "elementid" "12dbec1a-3786-4ab5-8df2-21604d422ea5"
+	"operators" "element_array" 
+	[
+		"CDmeColorCorrectionCurvesOp"
+		{
+			"id" "elementid" "c3d02da6-a2ce-440c-92e0-c668c91ae088"
+			"blendFactor" "float" "0.8156863451"
+			"channelMask" "int" "7"
+			"controlPoints" "vector3_array" 
+			[
+				"0 0 0",
+				"0 0 0",
+				"0.3141361177 0.4869109988 0",
+				"0.5916230083 0.8376963139 0",
+				"1 1 0",
+				"1 1 0"
+			]
+			"enabled" "bool" "1"
+			"name" "string" "curve"
+		},
+		"CDmeColorCorrectionLevelsOp"
+		{
+			"id" "elementid" "cbaae617-b84a-4efe-98a9-c16d01fac873"
+			"blendFactor" "float" "0.741176486"
+			"channelMask" "int" "7"
+			"enabled" "bool" "1"
+			"maxInputLevel" "float" "1"
+			"maxOutputLevel" "float" "1"
+			"midInputLevel" "float" "0.4627451301"
+			"minInputLevel" "float" "0"
+			"minOutputLevel" "float" "0"
+			"name" "string" "level_a"
+		},
+		"CDmeColorCorrectionSelectedHSVOp"
+		{
+			"id" "elementid" "180abf34-1d80-42c3-97ab-9db6588ecaec"
+			"blendFactor" "float" "1"
+			"colorize" "bool" "0"
+			"deltaHSV" "vector3" "62 0.764705956 0.2235294282"
+			"enabled" "bool" "1"
+			"fuzziness" "float" "0"
+			"invertSelection" "bool" "0"
+			"name" "string" "hsv1"
+			"selectedHSVs" "vector3_array" 
+			[
+			]
+			"selectedRGBs" "vector3_array" 
+			[
+			]
+			"selectionMethod" "int" "3"
+			"tolerance" "float" "0.2000000179"
+		},
+		"CDmeColorCorrectionColorBalanceOp"
+		{
+			"id" "elementid" "ad688d17-3a1c-4495-82b1-1f4163254567"
+			"blendFactor" "float" "1"
+			"cyanRedBalance" "float_array" 
+			[
+				"0",
+				"3",
+				"0"
+			]
+			"enabled" "bool" "1"
+			"magentaGreenBalance" "float_array" 
+			[
+				"0",
+				"-12",
+				"0"
+			]
+			"name" "string" "cb1"
+			"preserveLuminosity" "bool" "1"
+			"yellowBlueBalance" "float_array" 
+			[
+				"0",
+				"-11",
+				"0"
+			]
+		},
+		"CDmeColorCorrectionSelectedHSVOp"
+		{
+			"id" "elementid" "ebac9586-a70f-479c-8401-ffb1363954fd"
+			"blendFactor" "float" "0.721568644"
+			"colorize" "bool" "0"
+			"deltaHSV" "vector3" "0 0.2078431547 -0.0039215689"
+			"enabled" "bool" "1"
+			"fuzziness" "float" "0.3058823645"
+			"invertSelection" "bool" "0"
+			"name" "string" "hsv2"
+			"selectedHSVs" "vector3_array" 
+			[
+			]
+			"selectedRGBs" "vector3_array" 
+			[
+			]
+			"selectionMethod" "int" "1"
+			"tolerance" "float" "0.2000000179"
+		}
+	]
+}
+
