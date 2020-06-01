@@ -107,6 +107,13 @@
 				// "TankVariant" "models/infected/hulk_dlc3.mdl" // Sets a custom tank model per-map.
 				// "revisitable"	"1" // Saves spawned items so they can be recreated in subsequent levels (used in Hard Rain).
 			}
+			"3"
+			{
+				"Map" "sm1_prison"
+				"DisplayName" "Prison"
+				//"Image" "maps/my_map1"
+				
+			}
 		}
 	}
 }
