@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7971"
-	"mapversion" "815"
+	"mapversion" "818"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "815"
+	"mapversion" "818"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -75401,28 +75401,6 @@ entity
 }
 entity
 {
-	"id" "4639"
-	"classname" "weapon_ammo_spawn"
-	"angles" "0 0 0"
-	"body" "0"
-	"count" "5"
-	"disableshadows" "0"
-	"model" "models/props/terror/ammo_stack.mdl"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "0"
-	"origin" "5656 1536 -190.835"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupid" "19"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -4768]"
-	}
-}
-entity
-{
 	"id" "4666"
 	"classname" "weapon_spawn"
 	"angles" "0 105 90"
@@ -114999,6 +114977,27 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -2768]"
+	}
+}
+entity
+{
+	"id" "40910"
+	"classname" "weapon_ammo_spawn"
+	"angles" "0 90 0"
+	"body" "0"
+	"count" "5"
+	"disableshadows" "0"
+	"model" "models/props_buildables/small_cabinet_ammo.mdl"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"origin" "5504 1350 -198.092"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -4768]"
 	}
 }
 cameras

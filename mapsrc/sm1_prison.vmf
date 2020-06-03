@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7971"
-	"mapversion" "375"
+	"mapversion" "388"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "375"
+	"mapversion" "388"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -27995,303 +27995,6 @@ world
 	}
 	solid
 	{
-		"id" "3123"
-		side
-		{
-			"id" "4654"
-			"plane" "(1440 2304 48) (1432 2304 40) (1432 2312 40)"
-			"material" "METAL/METALTRUSS008A"
-			"uaxis" "[0 1 0 -16] 0.25"
-			"vaxis" "[1 0 0 -48] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "4653"
-			"plane" "(1432 2304 -64) (1440 2304 -64) (1440 2312 -64)"
-			"material" "METAL/METALTRUSS008A"
-			"uaxis" "[0 1 0 -16] 0.25"
-			"vaxis" "[1 0 0 -48] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "4652"
-			"plane" "(1440 2304 -64) (1432 2304 -64) (1432 2304 40)"
-			"material" "METAL/METALTRUSS008A"
-			"uaxis" "[-1 0 0 48] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "4651"
-			"plane" "(1440 2312 48) (1432 2312 40) (1432 2312 -64)"
-			"material" "METAL/METALTRUSS008A"
-			"uaxis" "[-1 0 0 48] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "4650"
-			"plane" "(1432 2304 -64) (1432 2312 -64) (1432 2312 40)"
-			"material" "METAL/METALTRUSS008A"
-			"uaxis" "[0 1 0 -16] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "4649"
-			"plane" "(1440 2312 -64) (1440 2304 -64) (1440 2304 48)"
-			"material" "METAL/METALTRUSS008A"
-			"uaxis" "[0 1 0 -16] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 220 220"
-			"groupid" "3122"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "3124"
-		side
-		{
-			"id" "4660"
-			"plane" "(1368 2312 48) (1376 2312 40) (1376 2304 40)"
-			"material" "METAL/METALTRUSS008A"
-			"uaxis" "[0 1 0 -16] 0.25"
-			"vaxis" "[1 0 0 -48] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "4659"
-			"plane" "(1368 2304 -64) (1376 2304 -64) (1376 2312 -64)"
-			"material" "METAL/METALTRUSS008A"
-			"uaxis" "[0 1 0 -16] 0.25"
-			"vaxis" "[1 0 0 -48] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "4658"
-			"plane" "(1368 2304 48) (1376 2304 40) (1376 2304 -64)"
-			"material" "METAL/METALTRUSS008A"
-			"uaxis" "[-1 0 0 48] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "4657"
-			"plane" "(1368 2312 -64) (1376 2312 -64) (1376 2312 40)"
-			"material" "METAL/METALTRUSS008A"
-			"uaxis" "[-1 0 0 48] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "4656"
-			"plane" "(1368 2304 -64) (1368 2312 -64) (1368 2312 48)"
-			"material" "METAL/METALTRUSS008A"
-			"uaxis" "[0 1 0 -16] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "4655"
-			"plane" "(1376 2312 -64) (1376 2304 -64) (1376 2304 40)"
-			"material" "METAL/METALTRUSS008A"
-			"uaxis" "[0 1 0 -16] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 220 220"
-			"groupid" "3122"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "3125"
-		side
-		{
-			"id" "4666"
-			"plane" "(1440 2312 48) (1432 2312 40) (1432 2304 40)"
-			"material" "METAL/METALTRUSS008A"
-			"uaxis" "[0 1 0 -16] 0.25"
-			"vaxis" "[0 0 -1 -16] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "4665"
-			"plane" "(1368 2304 48) (1376 2304 40) (1376 2312 40)"
-			"material" "METAL/METALTRUSS008A"
-			"uaxis" "[0 1 0 -16] 0.25"
-			"vaxis" "[0 0 -1 -16] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "4664"
-			"plane" "(1440 2304 48) (1432 2304 40) (1376 2304 40)"
-			"material" "METAL/METALTRUSS008A"
-			"uaxis" "[0 0 1 16] 0.25"
-			"vaxis" "[-1 0 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "4663"
-			"plane" "(1368 2312 48) (1376 2312 40) (1432 2312 40)"
-			"material" "METAL/METALTRUSS008A"
-			"uaxis" "[0 0 1 16] 0.25"
-			"vaxis" "[-1 0 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "4662"
-			"plane" "(1440 2312 48) (1440 2304 48) (1368 2304 48)"
-			"material" "METAL/METALTRUSS008A"
-			"uaxis" "[0 1 0 -16] 0.25"
-			"vaxis" "[-1 0 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "4661"
-			"plane" "(1376 2312 40) (1376 2304 40) (1432 2304 40)"
-			"material" "METAL/METALTRUSS008A"
-			"uaxis" "[0 1 0 -16] 0.25"
-			"vaxis" "[-1 0 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 220 220"
-			"groupid" "3122"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "3342"
-		side
-		{
-			"id" "4809"
-			"plane" "(1856 3200 -64) (1856 2944 -64) (1984 2944 -64)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[1 0 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "4808"
-			"plane" "(1984 2944 192) (1984 2944 -64) (1856 2944 -64)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "4807"
-			"plane" "(1856 2944 192) (1856 2944 -64) (1856 3200 -64)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "4806"
-			"plane" "(1984 3200 -64) (1984 2944 -64) (1984 2944 192)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "4805"
-			"plane" "(1856 3200 -64) (1984 3200 -64) (1984 2944 192)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[1 0 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 220 220"
-			"groupid" "3341"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
 		"id" "4892"
 		side
 		{
@@ -28348,15 +28051,15 @@ world
 				}
 				offset_normals
 				{
-					"row0" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row1" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row5" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row6" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row7" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row8" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"row0" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row1" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row2" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row3" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row4" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row5" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row6" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row7" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row8" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
 				}
 				alphas
 				{
@@ -28464,15 +28167,15 @@ world
 				}
 				offset_normals
 				{
-					"row0" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row1" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row5" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row6" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row7" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row8" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"row0" "0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0"
+					"row1" "0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0"
+					"row2" "0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0"
+					"row3" "0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0"
+					"row4" "0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0"
+					"row5" "0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0"
+					"row6" "0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0"
+					"row7" "0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0"
+					"row8" "0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0"
 				}
 				alphas
 				{
@@ -28590,15 +28293,15 @@ world
 				}
 				offset_normals
 				{
-					"row0" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.176776 -0.176776 0.353554"
-					"row1" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.278301 -0.278538 0.91922"
-					"row2" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.197257 -0.197525 0.960247"
-					"row3" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.125402 -0.125467 0.98414"
-					"row4" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.094516 -0.094516 0.991026"
-					"row5" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.0438894 -0.0439054 0.998071"
-					"row6" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.0235118 -0.0235118 0.999447"
-					"row7" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.00587613 -0.00587613 0.999965"
-					"row8" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5"
+					"row0" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row1" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row2" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row3" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row4" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row5" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row6" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row7" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row8" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
 				}
 				alphas
 				{
@@ -28706,15 +28409,15 @@ world
 				}
 				offset_normals
 				{
-					"row0" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.25 -0.25 0"
-					"row1" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.707009 -0.707009 0.0166185"
-					"row2" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.705547 -0.705547 0.0663915"
-					"row3" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.701698 -0.701698 0.123448"
-					"row4" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.682704 -0.682704 0.260443"
-					"row5" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.665205 -0.665205 0.339124"
-					"row6" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.611308 -0.611308 0.502598"
-					"row7" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.537033 -0.536987 0.65057"
-					"row8" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.176776 -0.176776 0.353554"
+					"row0" "0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0"
+					"row1" "0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0"
+					"row2" "0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0"
+					"row3" "0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0"
+					"row4" "0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0"
+					"row5" "0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0"
+					"row6" "0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0"
+					"row7" "0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0"
+					"row8" "0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0"
 				}
 				alphas
 				{
@@ -39495,6 +39198,303 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
+	solid
+	{
+		"id" "3123"
+		side
+		{
+			"id" "4654"
+			"plane" "(1440 2304 48) (1432 2304 40) (1432 2312 40)"
+			"material" "METAL/METALTRUSS008A"
+			"uaxis" "[0 1 0 -16] 0.25"
+			"vaxis" "[1 0 0 -48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4653"
+			"plane" "(1432 2304 -64) (1440 2304 -64) (1440 2312 -64)"
+			"material" "METAL/METALTRUSS008A"
+			"uaxis" "[0 1 0 -16] 0.25"
+			"vaxis" "[1 0 0 -48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4652"
+			"plane" "(1440 2304 -64) (1432 2304 -64) (1432 2304 40)"
+			"material" "METAL/METALTRUSS008A"
+			"uaxis" "[-1 0 0 48] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4651"
+			"plane" "(1440 2312 48) (1432 2312 40) (1432 2312 -64)"
+			"material" "METAL/METALTRUSS008A"
+			"uaxis" "[-1 0 0 48] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4650"
+			"plane" "(1432 2304 -64) (1432 2312 -64) (1432 2312 40)"
+			"material" "METAL/METALTRUSS008A"
+			"uaxis" "[0 1 0 -16] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4649"
+			"plane" "(1440 2312 -64) (1440 2304 -64) (1440 2304 48)"
+			"material" "METAL/METALTRUSS008A"
+			"uaxis" "[0 1 0 -16] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"groupid" "3122"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "3124"
+		side
+		{
+			"id" "4660"
+			"plane" "(1368 2312 48) (1376 2312 40) (1376 2304 40)"
+			"material" "METAL/METALTRUSS008A"
+			"uaxis" "[0 1 0 -16] 0.25"
+			"vaxis" "[1 0 0 -48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4659"
+			"plane" "(1368 2304 -64) (1376 2304 -64) (1376 2312 -64)"
+			"material" "METAL/METALTRUSS008A"
+			"uaxis" "[0 1 0 -16] 0.25"
+			"vaxis" "[1 0 0 -48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4658"
+			"plane" "(1368 2304 48) (1376 2304 40) (1376 2304 -64)"
+			"material" "METAL/METALTRUSS008A"
+			"uaxis" "[-1 0 0 48] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4657"
+			"plane" "(1368 2312 -64) (1376 2312 -64) (1376 2312 40)"
+			"material" "METAL/METALTRUSS008A"
+			"uaxis" "[-1 0 0 48] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4656"
+			"plane" "(1368 2304 -64) (1368 2312 -64) (1368 2312 48)"
+			"material" "METAL/METALTRUSS008A"
+			"uaxis" "[0 1 0 -16] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4655"
+			"plane" "(1376 2312 -64) (1376 2304 -64) (1376 2304 40)"
+			"material" "METAL/METALTRUSS008A"
+			"uaxis" "[0 1 0 -16] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"groupid" "3122"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "3125"
+		side
+		{
+			"id" "4666"
+			"plane" "(1440 2312 48) (1432 2312 40) (1432 2304 40)"
+			"material" "METAL/METALTRUSS008A"
+			"uaxis" "[0 1 0 -16] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4665"
+			"plane" "(1368 2304 48) (1376 2304 40) (1376 2312 40)"
+			"material" "METAL/METALTRUSS008A"
+			"uaxis" "[0 1 0 -16] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4664"
+			"plane" "(1440 2304 48) (1432 2304 40) (1376 2304 40)"
+			"material" "METAL/METALTRUSS008A"
+			"uaxis" "[0 0 1 16] 0.25"
+			"vaxis" "[-1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4663"
+			"plane" "(1368 2312 48) (1376 2312 40) (1432 2312 40)"
+			"material" "METAL/METALTRUSS008A"
+			"uaxis" "[0 0 1 16] 0.25"
+			"vaxis" "[-1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4662"
+			"plane" "(1440 2312 48) (1440 2304 48) (1368 2304 48)"
+			"material" "METAL/METALTRUSS008A"
+			"uaxis" "[0 1 0 -16] 0.25"
+			"vaxis" "[-1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4661"
+			"plane" "(1376 2312 40) (1376 2304 40) (1432 2304 40)"
+			"material" "METAL/METALTRUSS008A"
+			"uaxis" "[0 1 0 -16] 0.25"
+			"vaxis" "[-1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"groupid" "3122"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "3342"
+		side
+		{
+			"id" "4809"
+			"plane" "(1856 3200 -64) (1856 2944 -64) (1984 2944 -64)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4808"
+			"plane" "(1984 2944 192) (1984 2944 -64) (1856 2944 -64)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4807"
+			"plane" "(1856 2944 192) (1856 2944 -64) (1856 3200 -64)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4806"
+			"plane" "(1984 3200 -64) (1984 2944 -64) (1984 2944 192)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4805"
+			"plane" "(1856 3200 -64) (1984 3200 -64) (1984 2944 192)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"groupid" "3341"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	group
 	{
 		"id" "583"
@@ -44763,27 +44763,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -5268]"
-	}
-}
-entity
-{
-	"id" "60"
-	"classname" "weapon_ammo_spawn"
-	"angles" "0 0 0"
-	"body" "0"
-	"count" "5"
-	"disableshadows" "0"
-	"model" "models/props/terror/ammo_stack.mdl"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "0"
-	"origin" "-104 128 -118.835"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -4768]"
 	}
 }
 entity
@@ -52766,7 +52745,7 @@ entity
 	"origin" "2140 7940 548"
 	editor
 	{
-		"color" "0 109 150"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -55460,6 +55439,822 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 -4768]"
+	}
+}
+entity
+{
+	"id" "8866"
+	"classname" "prop_health_cabinet"
+	"angles" "0 180 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowbackfacemult" "1.0"
+	"glowcolor" "0 0 0"
+	"HealthCount" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_interiors/medicalcabinet02.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	"origin" "2816 8848 496"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "8889"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item12" "0"
+	"item13" "0"
+	"item16" "0"
+	"item17" "0"
+	"item18" "0"
+	"item2" "0"
+	"item3" "1"
+	"item4" "1"
+	"item5" "1"
+	"item6" "0"
+	"item7" "0"
+	"item8" "0"
+	"spawnflags" "0"
+	"origin" "2800 8784 504"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 14500]"
+	}
+}
+entity
+{
+	"id" "8895"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item12" "0"
+	"item13" "0"
+	"item16" "0"
+	"item17" "0"
+	"item18" "0"
+	"item2" "0"
+	"item3" "1"
+	"item4" "1"
+	"item5" "1"
+	"item6" "0"
+	"item7" "0"
+	"item8" "0"
+	"spawnflags" "0"
+	"origin" "2800 8768 504"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 14500]"
+	}
+}
+entity
+{
+	"id" "8897"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item12" "0"
+	"item13" "0"
+	"item16" "0"
+	"item17" "0"
+	"item18" "0"
+	"item2" "0"
+	"item3" "1"
+	"item4" "1"
+	"item5" "1"
+	"item6" "0"
+	"item7" "0"
+	"item8" "0"
+	"spawnflags" "0"
+	"origin" "2800 8752 504"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 14500]"
+	}
+}
+entity
+{
+	"id" "8907"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item12" "0"
+	"item13" "0"
+	"item16" "0"
+	"item17" "0"
+	"item18" "0"
+	"item2" "0"
+	"item3" "1"
+	"item4" "1"
+	"item5" "1"
+	"item6" "0"
+	"item7" "0"
+	"item8" "0"
+	"spawnflags" "0"
+	"origin" "2800 8736 504"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 14500]"
+	}
+}
+entity
+{
+	"id" "8911"
+	"classname" "weapon_spawn"
+	"angles" "0 60 90"
+	"body" "0"
+	"count" "1"
+	"disableshadows" "0"
+	"model" "models/props/terror/ammo_stack.mdl"
+	"skin" "0"
+	"solid" "6"
+	"spawn_without_director" "0"
+	"spawnflags" "0"
+	"weapon_selection" "any"
+	"origin" "418.23 -453.705 -166.462"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -4768]"
+	}
+}
+entity
+{
+	"id" "8913"
+	"classname" "weapon_spawn"
+	"angles" "0 180 90"
+	"body" "0"
+	"count" "1"
+	"disableshadows" "0"
+	"model" "models/props/terror/ammo_stack.mdl"
+	"skin" "0"
+	"solid" "6"
+	"spawn_without_director" "0"
+	"spawnflags" "0"
+	"weapon_selection" "any"
+	"origin" "518.236 -577.699 -166.462"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -4768]"
+	}
+}
+entity
+{
+	"id" "8933"
+	"classname" "weapon_spawn"
+	"angles" "0 180 90"
+	"body" "0"
+	"count" "5"
+	"disableshadows" "0"
+	"model" "models/props/terror/ammo_stack.mdl"
+	"skin" "0"
+	"solid" "6"
+	"spawn_without_director" "0"
+	"spawnflags" "0"
+	"weapon_selection" "tier2_any"
+	"origin" "909.178 1720.01 -62.4622"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -4768]"
+	}
+}
+entity
+{
+	"id" "8935"
+	"classname" "weapon_spawn"
+	"angles" "0 90 90"
+	"body" "0"
+	"count" "5"
+	"disableshadows" "0"
+	"model" "models/props/terror/ammo_stack.mdl"
+	"skin" "0"
+	"solid" "6"
+	"spawn_without_director" "0"
+	"spawnflags" "0"
+	"weapon_selection" "tier2_any"
+	"origin" "912 1776 -62.4622"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -4768]"
+	}
+}
+entity
+{
+	"id" "8943"
+	"classname" "weapon_spawn"
+	"angles" "0 180 90"
+	"body" "0"
+	"count" "5"
+	"disableshadows" "0"
+	"model" "models/props/terror/ammo_stack.mdl"
+	"skin" "0"
+	"solid" "6"
+	"spawn_without_director" "0"
+	"spawnflags" "0"
+	"weapon_selection" "any"
+	"origin" "1286.24 3076.48 -62.4622"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -4768]"
+	}
+}
+entity
+{
+	"id" "8945"
+	"classname" "weapon_spawn"
+	"angles" "0 180 90"
+	"body" "0"
+	"count" "1"
+	"disableshadows" "0"
+	"model" "models/props/terror/ammo_stack.mdl"
+	"skin" "0"
+	"solid" "6"
+	"spawn_without_director" "0"
+	"spawnflags" "0"
+	"weapon_selection" "any"
+	"origin" "1619.5 3753.4 449.538"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -4768]"
+	}
+}
+entity
+{
+	"id" "8947"
+	"classname" "weapon_spawn"
+	"angles" "0 135 90"
+	"body" "0"
+	"count" "1"
+	"disableshadows" "0"
+	"model" "models/props/terror/ammo_stack.mdl"
+	"skin" "0"
+	"solid" "6"
+	"spawn_without_director" "0"
+	"spawnflags" "0"
+	"weapon_selection" "any"
+	"origin" "2095.02 3729.15 449.538"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -4768]"
+	}
+}
+entity
+{
+	"id" "8951"
+	"classname" "weapon_spawn"
+	"angles" "0 255 90"
+	"body" "0"
+	"count" "1"
+	"disableshadows" "0"
+	"model" "models/props/terror/ammo_stack.mdl"
+	"skin" "0"
+	"solid" "6"
+	"spawn_without_director" "0"
+	"spawnflags" "0"
+	"weapon_selection" "tier2_any"
+	"origin" "2016 7248 497.538"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -4768]"
+	}
+}
+entity
+{
+	"id" "8957"
+	"classname" "weapon_spawn"
+	"angles" "0 255 90"
+	"body" "0"
+	"count" "1"
+	"disableshadows" "0"
+	"model" "models/props/terror/ammo_stack.mdl"
+	"skin" "0"
+	"solid" "6"
+	"spawn_without_director" "0"
+	"spawnflags" "0"
+	"weapon_selection" "tier2_any"
+	"origin" "2032 7248 497.538"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -4768]"
+	}
+}
+entity
+{
+	"id" "8959"
+	"classname" "weapon_spawn"
+	"angles" "0 255 90"
+	"body" "0"
+	"count" "1"
+	"disableshadows" "0"
+	"model" "models/props/terror/ammo_stack.mdl"
+	"skin" "0"
+	"solid" "6"
+	"spawn_without_director" "0"
+	"spawnflags" "0"
+	"weapon_selection" "any"
+	"origin" "2224 7248 497.538"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -4768]"
+	}
+}
+entity
+{
+	"id" "8961"
+	"classname" "weapon_spawn"
+	"angles" "0 255 90"
+	"body" "0"
+	"count" "1"
+	"disableshadows" "0"
+	"model" "models/props/terror/ammo_stack.mdl"
+	"skin" "0"
+	"solid" "6"
+	"spawn_without_director" "0"
+	"spawnflags" "0"
+	"weapon_selection" "any"
+	"origin" "2208 7248 497.538"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -4768]"
+	}
+}
+entity
+{
+	"id" "8981"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item12" "0"
+	"item13" "0"
+	"item16" "0"
+	"item17" "0"
+	"item18" "0"
+	"item2" "0"
+	"item3" "1"
+	"item4" "1"
+	"item5" "1"
+	"item6" "0"
+	"item7" "0"
+	"item8" "0"
+	"spawnflags" "0"
+	"origin" "2766.23 7011.33 328.284"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 14500]"
+	}
+}
+entity
+{
+	"id" "8983"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item12" "0"
+	"item13" "0"
+	"item16" "0"
+	"item17" "0"
+	"item18" "0"
+	"item2" "0"
+	"item3" "1"
+	"item4" "1"
+	"item5" "1"
+	"item6" "0"
+	"item7" "0"
+	"item8" "0"
+	"spawnflags" "0"
+	"origin" "2486.8 5385.47 476.239"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 14500]"
+	}
+}
+entity
+{
+	"id" "8985"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item12" "0"
+	"item13" "0"
+	"item16" "0"
+	"item17" "0"
+	"item18" "0"
+	"item2" "0"
+	"item3" "1"
+	"item4" "1"
+	"item5" "1"
+	"item6" "0"
+	"item7" "0"
+	"item8" "0"
+	"spawnflags" "0"
+	"origin" "2045.31 3744.34 456"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 14500]"
+	}
+}
+entity
+{
+	"id" "8987"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item12" "0"
+	"item13" "0"
+	"item16" "0"
+	"item17" "0"
+	"item18" "0"
+	"item2" "0"
+	"item3" "1"
+	"item4" "1"
+	"item5" "1"
+	"item6" "0"
+	"item7" "0"
+	"item8" "0"
+	"spawnflags" "0"
+	"origin" "1954.17 3214.9 456"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 14500]"
+	}
+}
+entity
+{
+	"id" "8989"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item12" "0"
+	"item13" "0"
+	"item16" "0"
+	"item17" "0"
+	"item18" "0"
+	"item2" "0"
+	"item3" "1"
+	"item4" "1"
+	"item5" "1"
+	"item6" "0"
+	"item7" "0"
+	"item8" "0"
+	"spawnflags" "0"
+	"origin" "1779.31 2998.72 -56"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 14500]"
+	}
+}
+entity
+{
+	"id" "8991"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item12" "0"
+	"item13" "0"
+	"item16" "0"
+	"item17" "0"
+	"item18" "0"
+	"item2" "0"
+	"item3" "1"
+	"item4" "1"
+	"item5" "1"
+	"item6" "0"
+	"item7" "0"
+	"item8" "0"
+	"spawnflags" "0"
+	"origin" "1720.38 2983.29 -56"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 14500]"
+	}
+}
+entity
+{
+	"id" "8993"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item12" "0"
+	"item13" "0"
+	"item16" "0"
+	"item17" "0"
+	"item18" "0"
+	"item2" "0"
+	"item3" "1"
+	"item4" "1"
+	"item5" "1"
+	"item6" "0"
+	"item7" "0"
+	"item8" "0"
+	"spawnflags" "0"
+	"origin" "935.122 1916.56 -56"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 14500]"
+	}
+}
+entity
+{
+	"id" "8995"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item12" "0"
+	"item13" "0"
+	"item16" "0"
+	"item17" "0"
+	"item18" "0"
+	"item2" "0"
+	"item3" "1"
+	"item4" "1"
+	"item5" "1"
+	"item6" "0"
+	"item7" "0"
+	"item8" "0"
+	"spawnflags" "0"
+	"origin" "963.104 1921.64 -56"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 14500]"
+	}
+}
+entity
+{
+	"id" "8997"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item12" "0"
+	"item13" "0"
+	"item16" "0"
+	"item17" "0"
+	"item18" "0"
+	"item2" "0"
+	"item3" "1"
+	"item4" "1"
+	"item5" "1"
+	"item6" "0"
+	"item7" "0"
+	"item8" "0"
+	"spawnflags" "0"
+	"origin" "949.728 1889.02 -56"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 14500]"
+	}
+}
+entity
+{
+	"id" "8999"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item12" "0"
+	"item13" "0"
+	"item16" "0"
+	"item17" "0"
+	"item18" "0"
+	"item2" "0"
+	"item3" "1"
+	"item4" "1"
+	"item5" "1"
+	"item6" "0"
+	"item7" "0"
+	"item8" "0"
+	"spawnflags" "0"
+	"origin" "976.61 1902.64 -56"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 14500]"
+	}
+}
+entity
+{
+	"id" "9001"
+	"classname" "upgrade_spawn"
+	"laser_sight" "1"
+	"spawnflags" "2"
+	"upgradepack_explosive" "0"
+	"upgradepack_incendiary" "0"
+	"origin" "1008 1808 -56"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 14500]"
+	}
+}
+entity
+{
+	"id" "9084"
+	"classname" "weapon_spawn"
+	"angles" "0 255 90"
+	"body" "0"
+	"count" "1"
+	"disableshadows" "0"
+	"model" "models/props/terror/ammo_stack.mdl"
+	"skin" "0"
+	"solid" "6"
+	"spawn_without_director" "0"
+	"spawnflags" "0"
+	"weapon_selection" "any"
+	"origin" "-345.937 679.86 -174.462"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -4768]"
+	}
+}
+entity
+{
+	"id" "9086"
+	"classname" "weapon_spawn"
+	"angles" "0 255 90"
+	"body" "0"
+	"count" "1"
+	"disableshadows" "0"
+	"model" "models/props/terror/ammo_stack.mdl"
+	"skin" "0"
+	"solid" "6"
+	"spawn_without_director" "0"
+	"spawnflags" "0"
+	"weapon_selection" "any"
+	"origin" "855.021 189.632 -166.462"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -4768]"
+	}
+}
+entity
+{
+	"id" "9088"
+	"classname" "weapon_spawn"
+	"angles" "0 0 90"
+	"body" "0"
+	"count" "1"
+	"disableshadows" "0"
+	"model" "models/props/terror/ammo_stack.mdl"
+	"skin" "0"
+	"solid" "6"
+	"spawn_without_director" "0"
+	"spawnflags" "0"
+	"weapon_selection" "any"
+	"origin" "624 -240 -166.462"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -4768]"
+	}
+}
+entity
+{
+	"id" "9094"
+	"classname" "weapon_spawn"
+	"angles" "0 255 90"
+	"body" "0"
+	"count" "1"
+	"disableshadows" "0"
+	"model" "models/props/terror/ammo_stack.mdl"
+	"skin" "0"
+	"solid" "6"
+	"spawn_without_director" "0"
+	"spawnflags" "0"
+	"weapon_selection" "any"
+	"origin" "1422.85 2060.87 -62.4622"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -4768]"
+	}
+}
+entity
+{
+	"id" "9096"
+	"classname" "weapon_spawn"
+	"angles" "0 195 90"
+	"body" "0"
+	"count" "1"
+	"disableshadows" "0"
+	"model" "models/props/terror/ammo_stack.mdl"
+	"skin" "0"
+	"solid" "6"
+	"spawn_without_director" "0"
+	"spawnflags" "0"
+	"weapon_selection" "any"
+	"origin" "1440.74 2618.72 -62.4622"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -4768]"
 	}
 }
 cameras
