@@ -2,7 +2,7 @@
          Valve Nav Mesh Text Dump v1.0        
 ----------------------------------------------
 
-Number of Nav Areas: 115
+Number of Nav Areas: 118
 
 
 NAV AREA
@@ -86,7 +86,7 @@ South Connection Count: 2
 West Connection Count: 0
 Up Ladder Count: 0
 Down Ladder Count: 0
-Base Attribute Flags: 0x00000000
+Base Attribute Flags: 0x20000000
 Terror Spawn Attribute Flags: 0x00000882
 
 NAV AREA
@@ -110,7 +110,7 @@ South Connection Count: 0
 West Connection Count: 0
 Up Ladder Count: 1
 Down Ladder Count: 0
-Base Attribute Flags: 0x00000000
+Base Attribute Flags: 0x20000000
 Terror Spawn Attribute Flags: 0x00000000
 
 NAV AREA
@@ -122,7 +122,7 @@ South Connection Count: 0
 West Connection Count: 0
 Up Ladder Count: 1
 Down Ladder Count: 0
-Base Attribute Flags: 0x00000000
+Base Attribute Flags: 0x20000000
 Terror Spawn Attribute Flags: 0x00000000
 
 NAV AREA
@@ -182,7 +182,7 @@ South Connection Count: 4
 West Connection Count: 1
 Up Ladder Count: 0
 Down Ladder Count: 0
-Base Attribute Flags: 0x00000000
+Base Attribute Flags: 0x20000000
 Terror Spawn Attribute Flags: 0x00000002
 
 NAV AREA
@@ -260,14 +260,26 @@ Terror Spawn Attribute Flags: 0x00000000
 NAV AREA
 --------
 Center Position: 350.000000, 400.000000, 64.031250
-North Connection Count: 0
+North Connection Count: 1
 East Connection Count: 0
 South Connection Count: 0
 West Connection Count: 0
 Up Ladder Count: 0
 Down Ladder Count: 0
 Base Attribute Flags: 0x00000000
-Terror Spawn Attribute Flags: 0x00000000
+Terror Spawn Attribute Flags: 0x00000002
+
+NAV AREA
+--------
+Center Position: 362.500000, 275.000000, 64.031250
+North Connection Count: 1
+East Connection Count: 0
+South Connection Count: 1
+West Connection Count: 0
+Up Ladder Count: 0
+Down Ladder Count: 0
+Base Attribute Flags: 0x00000000
+Terror Spawn Attribute Flags: 0x00000002
 
 NAV AREA
 --------
@@ -290,7 +302,7 @@ South Connection Count: 1
 West Connection Count: 1
 Up Ladder Count: 0
 Down Ladder Count: 0
-Base Attribute Flags: 0x00000000
+Base Attribute Flags: 0x20000000
 Terror Spawn Attribute Flags: 0x00000000
 
 NAV AREA
@@ -334,11 +346,11 @@ NAV AREA
 Center Position: 625.000000, -125.000000, 64.031250
 North Connection Count: 0
 East Connection Count: 1
-South Connection Count: 1
+South Connection Count: 2
 West Connection Count: 1
 Up Ladder Count: 0
 Down Ladder Count: 0
-Base Attribute Flags: 0x00000000
+Base Attribute Flags: 0x20000000
 Terror Spawn Attribute Flags: 0x00000002
 
 NAV AREA
@@ -410,7 +422,7 @@ South Connection Count: 0
 West Connection Count: 1
 Up Ladder Count: 0
 Down Ladder Count: 0
-Base Attribute Flags: 0x00000000
+Base Attribute Flags: 0x20000000
 Terror Spawn Attribute Flags: 0x00000000
 
 NAV AREA
@@ -422,7 +434,7 @@ South Connection Count: 0
 West Connection Count: 1
 Up Ladder Count: 0
 Down Ladder Count: 0
-Base Attribute Flags: 0x00000000
+Base Attribute Flags: 0x20000000
 Terror Spawn Attribute Flags: 0x00000000
 
 NAV AREA
@@ -488,14 +500,26 @@ Terror Spawn Attribute Flags: 0x00000000
 NAV AREA
 --------
 Center Position: 1125.000000, 400.000000, 64.031250
-North Connection Count: 0
+North Connection Count: 1
 East Connection Count: 0
 South Connection Count: 0
 West Connection Count: 0
 Up Ladder Count: 0
 Down Ladder Count: 0
 Base Attribute Flags: 0x00000000
-Terror Spawn Attribute Flags: 0x00000000
+Terror Spawn Attribute Flags: 0x00000002
+
+NAV AREA
+--------
+Center Position: 1137.500000, 275.000000, 64.031250
+North Connection Count: 1
+East Connection Count: 0
+South Connection Count: 1
+West Connection Count: 0
+Up Ladder Count: 0
+Down Ladder Count: 0
+Base Attribute Flags: 0x00000000
+Terror Spawn Attribute Flags: 0x00000002
 
 NAV AREA
 --------
@@ -527,10 +551,10 @@ Center Position: 1262.500000, 300.000000, 192.031250
 North Connection Count: 0
 East Connection Count: 1
 South Connection Count: 1
-West Connection Count: 1
+West Connection Count: 0
 Up Ladder Count: 0
 Down Ladder Count: 0
-Base Attribute Flags: 0x00000000
+Base Attribute Flags: 0x20000000
 Terror Spawn Attribute Flags: 0x00000000
 
 NAV AREA
@@ -539,7 +563,7 @@ Center Position: 1262.500000, 350.000000, 192.031250
 North Connection Count: 1
 East Connection Count: 1
 South Connection Count: 1
-West Connection Count: 1
+West Connection Count: 0
 Up Ladder Count: 0
 Down Ladder Count: 0
 Base Attribute Flags: 0x20000000
@@ -551,7 +575,7 @@ Center Position: 1262.500000, 400.000000, 192.031250
 North Connection Count: 1
 East Connection Count: 1
 South Connection Count: 1
-West Connection Count: 1
+West Connection Count: 0
 Up Ladder Count: 0
 Down Ladder Count: 0
 Base Attribute Flags: 0x20000000
@@ -563,7 +587,7 @@ Center Position: 1262.500000, 450.000000, 192.031250
 North Connection Count: 1
 East Connection Count: 1
 South Connection Count: 1
-West Connection Count: 1
+West Connection Count: 0
 Up Ladder Count: 0
 Down Ladder Count: 0
 Base Attribute Flags: 0x20000000
@@ -575,7 +599,7 @@ Center Position: 1262.500000, 500.000000, 192.031250
 North Connection Count: 1
 East Connection Count: 1
 South Connection Count: 1
-West Connection Count: 1
+West Connection Count: 0
 Up Ladder Count: 0
 Down Ladder Count: 0
 Base Attribute Flags: 0x20000000
@@ -598,11 +622,11 @@ NAV AREA
 Center Position: 1375.000000, -125.000000, 64.031250
 North Connection Count: 0
 East Connection Count: 2
-South Connection Count: 2
+South Connection Count: 3
 West Connection Count: 1
 Up Ladder Count: 0
 Down Ladder Count: 0
-Base Attribute Flags: 0x00000000
+Base Attribute Flags: 0x20000000
 Terror Spawn Attribute Flags: 0x00000002
 
 NAV AREA
@@ -626,7 +650,7 @@ South Connection Count: 0
 West Connection Count: 0
 Up Ladder Count: 0
 Down Ladder Count: 0
-Base Attribute Flags: 0x00000000
+Base Attribute Flags: 0x20000000
 Terror Spawn Attribute Flags: 0x00000002
 
 NAV AREA
@@ -698,7 +722,7 @@ South Connection Count: 4
 West Connection Count: 1
 Up Ladder Count: 0
 Down Ladder Count: 0
-Base Attribute Flags: 0x00000000
+Base Attribute Flags: 0x20000000
 Terror Spawn Attribute Flags: 0x00000002
 
 NAV AREA
@@ -710,7 +734,7 @@ South Connection Count: 0
 West Connection Count: 2
 Up Ladder Count: 1
 Down Ladder Count: 0
-Base Attribute Flags: 0x00000000
+Base Attribute Flags: 0x20000000
 Terror Spawn Attribute Flags: 0x00000000
 
 NAV AREA
@@ -782,7 +806,7 @@ South Connection Count: 0
 West Connection Count: 1
 Up Ladder Count: 1
 Down Ladder Count: 0
-Base Attribute Flags: 0x00000000
+Base Attribute Flags: 0x20000000
 Terror Spawn Attribute Flags: 0x00000000
 
 NAV AREA
@@ -802,7 +826,7 @@ NAV AREA
 Center Position: 1912.500000, -550.000000, 192.031250
 North Connection Count: 1
 East Connection Count: 1
-South Connection Count: 1
+South Connection Count: 0
 West Connection Count: 1
 Up Ladder Count: 0
 Down Ladder Count: 0
@@ -823,22 +847,34 @@ Terror Spawn Attribute Flags: 0x00000000
 
 NAV AREA
 --------
+Center Position: 1999.857178, -273.536255, 64.031250
+North Connection Count: 1
+East Connection Count: 0
+South Connection Count: 1
+West Connection Count: 0
+Up Ladder Count: 0
+Down Ladder Count: 0
+Base Attribute Flags: 0x20000000
+Terror Spawn Attribute Flags: 0x00000002
+
+NAV AREA
+--------
 Center Position: 2000.000000, -400.000000, 64.031250
 North Connection Count: 0
 East Connection Count: 0
-South Connection Count: 0
+South Connection Count: 1
 West Connection Count: 0
 Up Ladder Count: 0
 Down Ladder Count: 0
 Base Attribute Flags: 0x00000000
-Terror Spawn Attribute Flags: 0x00000000
+Terror Spawn Attribute Flags: 0x00000002
 
 NAV AREA
 --------
 Center Position: 2037.500000, -550.000000, 192.031250
 North Connection Count: 1
 East Connection Count: 1
-South Connection Count: 1
+South Connection Count: 0
 West Connection Count: 1
 Up Ladder Count: 0
 Down Ladder Count: 0
@@ -860,13 +896,13 @@ Terror Spawn Attribute Flags: 0x00000000
 NAV AREA
 --------
 Center Position: 2125.000000, 125.000000, 64.031250
-North Connection Count: 3
+North Connection Count: 4
 East Connection Count: 2
 South Connection Count: 0
 West Connection Count: 3
 Up Ladder Count: 0
 Down Ladder Count: 0
-Base Attribute Flags: 0x00000000
+Base Attribute Flags: 0x20000000
 Terror Spawn Attribute Flags: 0x00000002
 
 NAV AREA
@@ -902,7 +938,7 @@ South Connection Count: 1
 West Connection Count: 0
 Up Ladder Count: 0
 Down Ladder Count: 0
-Base Attribute Flags: 0x00000000
+Base Attribute Flags: 0x20000000
 Terror Spawn Attribute Flags: 0x00000002
 
 NAV AREA
@@ -1010,7 +1046,7 @@ South Connection Count: 0
 West Connection Count: 1
 Up Ladder Count: 1
 Down Ladder Count: 0
-Base Attribute Flags: 0x00000000
+Base Attribute Flags: 0x20000000
 Terror Spawn Attribute Flags: 0x00000000
 
 NAV AREA
@@ -1034,7 +1070,7 @@ South Connection Count: 1
 West Connection Count: 2
 Up Ladder Count: 0
 Down Ladder Count: 0
-Base Attribute Flags: 0x00000000
+Base Attribute Flags: 0x20000000
 Terror Spawn Attribute Flags: 0x00000002
 
 NAV AREA
@@ -1082,7 +1118,7 @@ South Connection Count: 3
 West Connection Count: 1
 Up Ladder Count: 1
 Down Ladder Count: 0
-Base Attribute Flags: 0x00000000
+Base Attribute Flags: 0x20000000
 Terror Spawn Attribute Flags: 0x00000000
 
 NAV AREA
@@ -1214,7 +1250,7 @@ South Connection Count: 3
 West Connection Count: 1
 Up Ladder Count: 0
 Down Ladder Count: 0
-Base Attribute Flags: 0x00000000
+Base Attribute Flags: 0x20000000
 Terror Spawn Attribute Flags: 0x00000000
 
 NAV AREA
@@ -1226,7 +1262,7 @@ South Connection Count: 3
 West Connection Count: 1
 Up Ladder Count: 0
 Down Ladder Count: 0
-Base Attribute Flags: 0x00000000
+Base Attribute Flags: 0x20000000
 Terror Spawn Attribute Flags: 0x00000000
 
 NAV AREA
@@ -1250,7 +1286,7 @@ South Connection Count: 1
 West Connection Count: 0
 Up Ladder Count: 0
 Down Ladder Count: 0
-Base Attribute Flags: 0x00000000
+Base Attribute Flags: 0x20000000
 Terror Spawn Attribute Flags: 0x00002042
 
 NAV AREA
@@ -1262,7 +1298,7 @@ South Connection Count: 0
 West Connection Count: 0
 Up Ladder Count: 0
 Down Ladder Count: 0
-Base Attribute Flags: 0x00000000
+Base Attribute Flags: 0x20000000
 Terror Spawn Attribute Flags: 0x00002042
 
 NAV AREA
@@ -1298,7 +1334,7 @@ South Connection Count: 1
 West Connection Count: 1
 Up Ladder Count: 0
 Down Ladder Count: 0
-Base Attribute Flags: 0x00000000
+Base Attribute Flags: 0x20000000
 Terror Spawn Attribute Flags: 0x00000000
 
 NAV AREA
@@ -1334,7 +1370,7 @@ South Connection Count: 1
 West Connection Count: 1
 Up Ladder Count: 0
 Down Ladder Count: 0
-Base Attribute Flags: 0x00000000
+Base Attribute Flags: 0x20000000
 Terror Spawn Attribute Flags: 0x00002042
 
 NAV AREA
@@ -1346,7 +1382,7 @@ South Connection Count: 1
 West Connection Count: 1
 Up Ladder Count: 0
 Down Ladder Count: 0
-Base Attribute Flags: 0x00000000
+Base Attribute Flags: 0x20000000
 Terror Spawn Attribute Flags: 0x00002042
 
 NAV AREA
@@ -1370,7 +1406,7 @@ South Connection Count: 1
 West Connection Count: 1
 Up Ladder Count: 0
 Down Ladder Count: 0
-Base Attribute Flags: 0x00000000
+Base Attribute Flags: 0x20000000
 Terror Spawn Attribute Flags: 0x00000000
 
 NAV AREA

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7971"
-	"mapversion" "51"
+	"mapversion" "53"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "51"
+	"mapversion" "53"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1326,7 +1326,7 @@ world
 		{
 			"id" "367"
 			"plane" "(208 512 192) (240 512 192) (240 256 192)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "CONCRETE/CONCRETE_FLOOR_02"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1402,7 +1402,7 @@ world
 		{
 			"id" "373"
 			"plane" "(240 288 192) (320 288 192) (320 256 192)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "CONCRETE/CONCRETE_FLOOR_02"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1478,7 +1478,7 @@ world
 		{
 			"id" "379"
 			"plane" "(320 288 192) (384 288 192) (384 256 192)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "CONCRETE/CONCRETE_FLOOR_02"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1554,7 +1554,7 @@ world
 		{
 			"id" "396"
 			"plane" "(384 288 192) (464 288 192) (464 256 192)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "CONCRETE/CONCRETE_FLOOR_02"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1630,7 +1630,7 @@ world
 		{
 			"id" "408"
 			"plane" "(464 512 192) (496 512 192) (496 256 192)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "CONCRETE/CONCRETE_FLOOR_02"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1706,7 +1706,7 @@ world
 		{
 			"id" "444"
 			"plane" "(992 512 192) (1024 512 192) (1024 256 192)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "CONCRETE/CONCRETE_FLOOR_02"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1782,7 +1782,7 @@ world
 		{
 			"id" "450"
 			"plane" "(1104 288 192) (1168 288 192) (1168 256 192)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "CONCRETE/CONCRETE_FLOOR_02"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1858,7 +1858,7 @@ world
 		{
 			"id" "456"
 			"plane" "(1024 288 192) (1104 288 192) (1104 256 192)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "CONCRETE/CONCRETE_FLOOR_02"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1934,7 +1934,7 @@ world
 		{
 			"id" "462"
 			"plane" "(1168 288 192) (1248 288 192) (1248 256 192)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "CONCRETE/CONCRETE_FLOOR_02"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -2010,7 +2010,7 @@ world
 		{
 			"id" "468"
 			"plane" "(1248 512 192) (1280 512 192) (1280 256 192)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "CONCRETE/CONCRETE_FLOOR_02"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -2086,7 +2086,7 @@ world
 		{
 			"id" "504"
 			"plane" "(2144 -512 192) (2112 -512 192) (2112 -256 192)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "CONCRETE/CONCRETE_FLOOR_02"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
 			"rotation" "0"
@@ -2162,7 +2162,7 @@ world
 		{
 			"id" "510"
 			"plane" "(2032 -288 192) (1968 -288 192) (1968 -256 192)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "CONCRETE/CONCRETE_FLOOR_02"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
 			"rotation" "0"
@@ -2238,7 +2238,7 @@ world
 		{
 			"id" "516"
 			"plane" "(2112 -288 192) (2032 -288 192) (2032 -256 192)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "CONCRETE/CONCRETE_FLOOR_02"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
 			"rotation" "0"
@@ -2314,7 +2314,7 @@ world
 		{
 			"id" "522"
 			"plane" "(1968 -288 192) (1888 -288 192) (1888 -256 192)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "CONCRETE/CONCRETE_FLOOR_02"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
 			"rotation" "0"
@@ -2390,7 +2390,7 @@ world
 		{
 			"id" "528"
 			"plane" "(1888 -512 192) (1856 -512 192) (1856 -256 192)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "CONCRETE/CONCRETE_FLOOR_02"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
 			"rotation" "0"
