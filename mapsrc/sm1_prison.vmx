@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7971"
-	"mapversion" "388"
+	"mapversion" "394"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "388"
+	"mapversion" "394"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -55584,29 +55584,6 @@ entity
 }
 entity
 {
-	"id" "8911"
-	"classname" "weapon_spawn"
-	"angles" "0 60 90"
-	"body" "0"
-	"count" "1"
-	"disableshadows" "0"
-	"model" "models/props/terror/ammo_stack.mdl"
-	"skin" "0"
-	"solid" "6"
-	"spawn_without_director" "0"
-	"spawnflags" "0"
-	"weapon_selection" "any"
-	"origin" "418.23 -453.705 -166.462"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -4768]"
-	}
-}
-entity
-{
 	"id" "8913"
 	"classname" "weapon_spawn"
 	"angles" "0 180 90"
@@ -55666,167 +55643,6 @@ entity
 	"spawnflags" "0"
 	"weapon_selection" "tier2_any"
 	"origin" "912 1776 -62.4622"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -4768]"
-	}
-}
-entity
-{
-	"id" "8943"
-	"classname" "weapon_spawn"
-	"angles" "0 180 90"
-	"body" "0"
-	"count" "5"
-	"disableshadows" "0"
-	"model" "models/props/terror/ammo_stack.mdl"
-	"skin" "0"
-	"solid" "6"
-	"spawn_without_director" "0"
-	"spawnflags" "0"
-	"weapon_selection" "any"
-	"origin" "1286.24 3076.48 -62.4622"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -4768]"
-	}
-}
-entity
-{
-	"id" "8945"
-	"classname" "weapon_spawn"
-	"angles" "0 180 90"
-	"body" "0"
-	"count" "1"
-	"disableshadows" "0"
-	"model" "models/props/terror/ammo_stack.mdl"
-	"skin" "0"
-	"solid" "6"
-	"spawn_without_director" "0"
-	"spawnflags" "0"
-	"weapon_selection" "any"
-	"origin" "1619.5 3753.4 449.538"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -4768]"
-	}
-}
-entity
-{
-	"id" "8947"
-	"classname" "weapon_spawn"
-	"angles" "0 135 90"
-	"body" "0"
-	"count" "1"
-	"disableshadows" "0"
-	"model" "models/props/terror/ammo_stack.mdl"
-	"skin" "0"
-	"solid" "6"
-	"spawn_without_director" "0"
-	"spawnflags" "0"
-	"weapon_selection" "any"
-	"origin" "2095.02 3729.15 449.538"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -4768]"
-	}
-}
-entity
-{
-	"id" "8951"
-	"classname" "weapon_spawn"
-	"angles" "0 255 90"
-	"body" "0"
-	"count" "1"
-	"disableshadows" "0"
-	"model" "models/props/terror/ammo_stack.mdl"
-	"skin" "0"
-	"solid" "6"
-	"spawn_without_director" "0"
-	"spawnflags" "0"
-	"weapon_selection" "tier2_any"
-	"origin" "2016 7248 497.538"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -4768]"
-	}
-}
-entity
-{
-	"id" "8957"
-	"classname" "weapon_spawn"
-	"angles" "0 255 90"
-	"body" "0"
-	"count" "1"
-	"disableshadows" "0"
-	"model" "models/props/terror/ammo_stack.mdl"
-	"skin" "0"
-	"solid" "6"
-	"spawn_without_director" "0"
-	"spawnflags" "0"
-	"weapon_selection" "tier2_any"
-	"origin" "2032 7248 497.538"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -4768]"
-	}
-}
-entity
-{
-	"id" "8959"
-	"classname" "weapon_spawn"
-	"angles" "0 255 90"
-	"body" "0"
-	"count" "1"
-	"disableshadows" "0"
-	"model" "models/props/terror/ammo_stack.mdl"
-	"skin" "0"
-	"solid" "6"
-	"spawn_without_director" "0"
-	"spawnflags" "0"
-	"weapon_selection" "any"
-	"origin" "2224 7248 497.538"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -4768]"
-	}
-}
-entity
-{
-	"id" "8961"
-	"classname" "weapon_spawn"
-	"angles" "0 255 90"
-	"body" "0"
-	"count" "1"
-	"disableshadows" "0"
-	"model" "models/props/terror/ammo_stack.mdl"
-	"skin" "0"
-	"solid" "6"
-	"spawn_without_director" "0"
-	"spawnflags" "0"
-	"weapon_selection" "any"
-	"origin" "2208 7248 497.538"
 	editor
 	{
 		"color" "0 0 200"
@@ -55914,35 +55730,6 @@ entity
 	"item8" "0"
 	"spawnflags" "0"
 	"origin" "2045.31 3744.34 456"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1500 14500]"
-	}
-}
-entity
-{
-	"id" "8987"
-	"classname" "weapon_item_spawn"
-	"angles" "0 0 0"
-	"item1" "0"
-	"item11" "1"
-	"item12" "0"
-	"item13" "0"
-	"item16" "0"
-	"item17" "0"
-	"item18" "0"
-	"item2" "0"
-	"item3" "1"
-	"item4" "1"
-	"item5" "1"
-	"item6" "0"
-	"item7" "0"
-	"item8" "0"
-	"spawnflags" "0"
-	"origin" "1954.17 3214.9 456"
 	editor
 	{
 		"color" "220 30 220"
@@ -56167,29 +55954,6 @@ entity
 }
 entity
 {
-	"id" "9086"
-	"classname" "weapon_spawn"
-	"angles" "0 255 90"
-	"body" "0"
-	"count" "1"
-	"disableshadows" "0"
-	"model" "models/props/terror/ammo_stack.mdl"
-	"skin" "0"
-	"solid" "6"
-	"spawn_without_director" "0"
-	"spawnflags" "0"
-	"weapon_selection" "any"
-	"origin" "855.021 189.632 -166.462"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 -4768]"
-	}
-}
-entity
-{
 	"id" "9088"
 	"classname" "weapon_spawn"
 	"angles" "0 0 90"
@@ -56255,6 +56019,647 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -4768]"
+	}
+}
+entity
+{
+	"id" "9336"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "0"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"origin" "425.456 -451.307 -159"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9348"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "0"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"origin" "544.732 -474.004 -160"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9350"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "0"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"origin" "874.466 237.938 -160"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9352"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "0"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"origin" "877.818 147.472 -160"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9354"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "0"
+	"item4" "1"
+	"item5" "1"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"origin" "624.057 239.095 -160"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9364"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "0"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"origin" "307.661 1703.36 -56"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9366"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "0"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"origin" "-320.061 992.1 -168"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9368"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "1"
+	"item11" "1"
+	"item3" "0"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"origin" "-304.71 653.632 -168"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9378"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "1"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"melee_weapon" "any"
+	"origin" "1201.07 2854.07 -56"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9382"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "1"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"melee_weapon" "any"
+	"origin" "1225.82 2834.87 -56"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9386"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "1"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"melee_weapon" "any"
+	"origin" "1349.41 2609.21 -56"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9406"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "0"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"origin" "-88.5384 3252.04 -56"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9410"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "0"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"origin" "-538.839 3020.78 -56"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9414"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "0"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"origin" "-508.681 3479.87 -56"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9418"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "0"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"origin" "436.671 3255.19 -56"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9422"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "0"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"origin" "1262.63 3326.71 -56"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9426"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "0"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"origin" "1304.83 3321.32 -56"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9431"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "0"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"origin" "1947 3139.63 440"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9436"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "0"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"origin" "1537.04 3757.4 456"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9440"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "0"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"origin" "1617.65 3787.54 456"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9444"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "0"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"origin" "2262.03 7204.48 504"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9448"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "0"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"origin" "2265.32 7268.93 504"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9452"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "0"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"origin" "1949.12 7200.7 504"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9456"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "0"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"origin" "1961.04 7267.58 504"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9466"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "0"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"origin" "230.837 2063.87 -168"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9470"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "0"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"origin" "50.4164 1762.75 -168"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9474"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "0"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"origin" "187.327 1422.6 -168"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9478"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "0"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"origin" "-357.898 3018.48 -168"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9482"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "1"
+	"item3" "0"
+	"item4" "1"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"origin" "-475.725 2603.41 -168"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras
