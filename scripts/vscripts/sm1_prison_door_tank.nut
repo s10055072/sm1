@@ -13,5 +13,5 @@ DirectorOptions <-
 	 A_CustomFinaleValue1 = 1   // Two panic waves.
 	 A_CustomFinale2 = DELAY
 	 A_CustomFinaleValue2 = 3  // Delay for twelve seconds in addition to stage delay.
-	 ZombieSpawnDistance = 100
+	 //ZombieSpawnDistance = 100
 }
