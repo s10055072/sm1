@@ -53,3 +53,5 @@ maps/sm1_urban.nav07
 maps/sm1_urban.nav08
 maps/sm1_urban.nav09
 maps/sm1_urban.nav10
+*.log
+*.prt
