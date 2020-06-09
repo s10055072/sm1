@@ -114,6 +114,11 @@
 				//"Image" "maps/my_map1"
 				
 			}
+			"4"
+			{
+				"Map" "sm1_site"
+				"DisplayName" "Town"
+			}
 		}
 	}
 }
