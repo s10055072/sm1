@@ -14,7 +14,7 @@ DirectorOptions <-
 	 A_CustomFinale2 = DELAY
 	 A_CustomFinaleValue2 = 3  // Delay for twelve seconds in addition to stage delay.
 	 ZombieSpawnDistance = 100
-	 PreferredMobDirection = SPAWN_LARGE_VOLUME
+	 PreferredMobDirection = SPAWN_NO_PREFERENCE
 }
 function OnBeginCustomFinaleStage( num, type )
 {
