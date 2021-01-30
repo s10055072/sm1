@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8755"
-	"mapversion" "497"
+	"mapversion" "504"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "497"
+	"mapversion" "504"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -59499,7 +59499,7 @@ entity
 	"mincpulevel" "0"
 	"mingpulevel" "0"
 	"movedir" "0 0 0"
-	"origin" "6384 -1728 -472.77"
+	"origin" "6392 -1728 -472.77"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -59522,7 +59522,7 @@ entity
 		side
 		{
 			"id" "13428"
-			"plane" "(6368 -1696 -432.77) (6400 -1696 -432.77) (6400 -1760 -432.77)"
+			"plane" "(6384 -1696 -432.77) (6400 -1696 -432.77) (6400 -1760 -432.77)"
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[0 -1 0 0.00195313] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
@@ -59533,7 +59533,7 @@ entity
 		side
 		{
 			"id" "13427"
-			"plane" "(6400 -1696 -512.77) (6368 -1696 -512.77) (6368 -1760 -512.77)"
+			"plane" "(6400 -1696 -512.77) (6384 -1696 -512.77) (6384 -1760 -512.77)"
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[0 -1 0 0.00195313] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
@@ -59544,7 +59544,7 @@ entity
 		side
 		{
 			"id" "13426"
-			"plane" "(6368 -1696 -512.77) (6400 -1696 -512.77) (6400 -1696 -432.77)"
+			"plane" "(6384 -1696 -512.77) (6400 -1696 -512.77) (6400 -1696 -432.77)"
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -3.078] 0.25"
@@ -59555,7 +59555,7 @@ entity
 		side
 		{
 			"id" "13425"
-			"plane" "(6400 -1760 -512.77) (6368 -1760 -512.77) (6368 -1760 -432.77)"
+			"plane" "(6400 -1760 -512.77) (6384 -1760 -512.77) (6384 -1760 -432.77)"
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -3.078] 0.25"
@@ -59577,7 +59577,7 @@ entity
 		side
 		{
 			"id" "13423"
-			"plane" "(6368 -1760 -512.77) (6368 -1696 -512.77) (6368 -1696 -432.77)"
+			"plane" "(6384 -1760 -512.77) (6384 -1696 -512.77) (6384 -1696 -432.77)"
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[0 -1 0 0.00195313] 0.25"
 			"vaxis" "[0 0 -1 -3.078] 0.25"
@@ -60020,6 +60020,7 @@ entity
 	connections
 	{
 		"OnTimeUp" "button_countersAdd10-1"
+		"OnTimeUp" "hint_1EndHint0-1"
 	}
 	solid
 	{
@@ -60182,6 +60183,7 @@ entity
 	connections
 	{
 		"OnTimeUp" "button_countersAdd10-1"
+		"OnTimeUp" "hint_2EndHint0-1"
 	}
 	solid
 	{
@@ -60329,11 +60331,11 @@ entity
 	"hint_caption" "Starts the generator..."
 	"hint_color" "255 255 255"
 	"hint_display_limit" "0"
-	"hint_forcecaption" "0"
+	"hint_forcecaption" "1"
 	"hint_icon_offscreen" "icon_tip"
 	"hint_icon_offset" "0"
 	"hint_icon_onscreen" "icon_tip"
-	"hint_instance_type" "2"
+	"hint_instance_type" "0"
 	"hint_nooffscreen" "0"
 	"hint_pulseoption" "0"
 	"hint_range" "0"
@@ -60363,11 +60365,11 @@ entity
 	"hint_caption" "Starts the generator..."
 	"hint_color" "255 255 255"
 	"hint_display_limit" "0"
-	"hint_forcecaption" "0"
+	"hint_forcecaption" "1"
 	"hint_icon_offscreen" "icon_tip"
 	"hint_icon_offset" "0"
 	"hint_icon_onscreen" "icon_tip"
-	"hint_instance_type" "2"
+	"hint_instance_type" "0"
 	"hint_nooffscreen" "0"
 	"hint_pulseoption" "0"
 	"hint_range" "0"
@@ -60397,11 +60399,11 @@ entity
 	"hint_caption" "Now...Open the gate"
 	"hint_color" "255 255 255"
 	"hint_display_limit" "0"
-	"hint_forcecaption" "0"
+	"hint_forcecaption" "1"
 	"hint_icon_offscreen" "icon_tip"
 	"hint_icon_offset" "0"
 	"hint_icon_onscreen" "icon_tip"
-	"hint_instance_type" "2"
+	"hint_instance_type" "0"
 	"hint_nooffscreen" "0"
 	"hint_pulseoption" "0"
 	"hint_range" "0"
@@ -60475,7 +60477,7 @@ entity
 	"mincpulevel" "0"
 	"mingpulevel" "0"
 	"movedir" "0 0 0"
-	"origin" "6376 -1728 -472.77"
+	"origin" "6384 -1728 -472.77"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -60497,7 +60499,7 @@ entity
 		side
 		{
 			"id" "13500"
-			"plane" "(6352 -1680 -432.77) (6400 -1680 -432.77) (6400 -1776 -432.77)"
+			"plane" "(6368 -1696 -432.77) (6400 -1696 -432.77) (6400 -1760 -432.77)"
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[0 -1 0 0.00195313] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
@@ -60508,7 +60510,7 @@ entity
 		side
 		{
 			"id" "13499"
-			"plane" "(6400 -1680 -512.77) (6352 -1680 -512.77) (6352 -1776 -512.77)"
+			"plane" "(6400 -1696 -512.77) (6368 -1696 -512.77) (6368 -1760 -512.77)"
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[0 -1 0 0.00195313] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
@@ -60519,7 +60521,7 @@ entity
 		side
 		{
 			"id" "13498"
-			"plane" "(6352 -1680 -512.77) (6400 -1680 -512.77) (6400 -1680 -432.77)"
+			"plane" "(6368 -1696 -512.77) (6400 -1696 -512.77) (6400 -1696 -432.77)"
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -3.078] 0.25"
@@ -60530,7 +60532,7 @@ entity
 		side
 		{
 			"id" "13497"
-			"plane" "(6400 -1776 -512.77) (6352 -1776 -512.77) (6352 -1776 -432.77)"
+			"plane" "(6400 -1760 -512.77) (6368 -1760 -512.77) (6368 -1760 -432.77)"
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -3.078] 0.25"
@@ -60541,7 +60543,7 @@ entity
 		side
 		{
 			"id" "13496"
-			"plane" "(6400 -1680 -512.77) (6400 -1776 -512.77) (6400 -1776 -432.77)"
+			"plane" "(6400 -1696 -512.77) (6400 -1760 -512.77) (6400 -1760 -432.77)"
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[0 -1 0 0.00195313] 0.25"
 			"vaxis" "[0 0 -1 -3.078] 0.25"
@@ -60552,7 +60554,7 @@ entity
 		side
 		{
 			"id" "13495"
-			"plane" "(6352 -1776 -512.77) (6352 -1680 -512.77) (6352 -1680 -432.77)"
+			"plane" "(6368 -1760 -512.77) (6368 -1696 -512.77) (6368 -1696 -432.77)"
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[0 -1 0 0.00195313] 0.25"
 			"vaxis" "[0 0 -1 -3.078] 0.25"
@@ -60604,8 +60606,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[6119.43 -1880.67 -427.623]"
-		"look" "[6232.68 -1836.8 -463.368]"
+		"position" "[6302.74 -1785.68 -457.93]"
+		"look" "[6403.9 -1710.07 -449.099]"
 	}
 }
 cordons
