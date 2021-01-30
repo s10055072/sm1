@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8755"
-	"mapversion" "2"
+	"mapversion" "3"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2"
+	"mapversion" "3"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -129,34 +129,10 @@ entity
 }
 entity
 {
-	"id" "29"
-	"classname" "env_sprite"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"framerate" "10.0"
-	"GlowProxySize" "2.0"
-	"HDRColorScale" "0.7"
-	"model" "sprites/light_glow02.vmt"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "9"
-	"scale" "1.2"
-	"origin" "8 0 4"
-	editor
-	{
-		"color" "20 140 20"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
 	"id" "95"
 	"classname" "light"
 	"_castentityshadow" "1"
-	"_light" "225 244 240 25"
+	"_light" "225 244 240 50"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "0.5"
 	"_quadratic_attn" "1"
