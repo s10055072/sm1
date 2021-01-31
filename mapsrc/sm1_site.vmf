@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8755"
-	"mapversion" "533"
+	"mapversion" "539"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "533"
+	"mapversion" "539"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -62890,7 +62890,6 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"glow" "prop_generator_1"
 	"locked_sound" "0"
 	"maxcpulevel" "0"
 	"maxgpulevel" "0"
@@ -62909,7 +62908,6 @@ entity
 	{
 		"OnTimeUp" "button_countersAdd10-1"
 		"OnTimeUp" "hint_1EndHint0-1"
-		"OnTimeUp" "event_start_relayTrigger0-1"
 	}
 	solid
 	{
@@ -63054,7 +63052,6 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"glow" "prop_generator_2"
 	"locked_sound" "0"
 	"maxcpulevel" "0"
 	"maxgpulevel" "0"
@@ -63073,7 +63070,6 @@ entity
 	{
 		"OnTimeUp" "button_countersAdd10-1"
 		"OnTimeUp" "hint_2EndHint0-1"
-		"OnTimeUp" "event_start_relayTrigger0-1"
 	}
 	solid
 	{
@@ -63476,6 +63472,7 @@ entity
 	connections
 	{
 		"OnHitMax" "button_entity_eventUnlock0-1"
+		"OutValue" "@directorBeginScriptsm1_site_event0-1"
 	}
 	"origin" "5108.28 -2040.43 -535"
 	editor
@@ -63538,7 +63535,7 @@ entity
 	"classname" "func_instance"
 	"angles" "-0 0 0"
 	"file" "../../sdk_content/mapsrc/instance/prop_fire_barrel.vmf"
-	"origin" "4188.33 -2123.84 -527.278"
+	"origin" "4192 -2123.84 -544"
 	editor
 	{
 		"color" "220 30 220"
@@ -65062,22 +65059,17 @@ entity
 }
 entity
 {
-	"id" "22042"
-	"classname" "logic_relay"
-	"spawnflags" "1"
-	"StartDisabled" "0"
-	"targetname" "event_start_relay"
-	connections
-	{
-		"OnTrigger" "@directorBeginScriptsm1_site_event0-1"
-	}
-	"origin" "5555.25 -2491.01 -535"
+	"id" "22405"
+	"classname" "func_instance"
+	"angles" "-0 180 0"
+	"file" "instance/light_1_on.vmf"
+	"origin" "4080 -704 -165.713"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 -768]"
+		"logicalpos" "[0 2000]"
 	}
 }
 cameras
@@ -65090,8 +65082,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[3122.06 1245.57 -181.463]"
-		"look" "[3101.19 1364.16 -220.587]"
+		"position" "[5060.38 -2188.09 -466.714]"
+		"look" "[5117.1 -2075.89 -481.705]"
 	}
 }
 cordons
