@@ -115292,32 +115292,29 @@ entity
 		"logicalpos" "[500 4000]"
 	}
 }
-hidden
+entity
 {
-	entity
+	"id" "60399"
+	"classname" "prop_static"
+	"angles" "0 145 0"
+	"disableselfshadowing" "1"
+	"disableshadows" "1"
+	"disablevertexlighting" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"model" "models/props_junk/wood_crate001a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"origin" "360.803 -376.205 84.1958"
+	editor
 	{
-		"id" "60399"
-		"classname" "prop_static"
-		"angles" "0 145 0"
-		"disableselfshadowing" "1"
-		"disableshadows" "1"
-		"disablevertexlighting" "1"
-		"fademindist" "-1"
-		"fadescale" "1"
-		"ignorenormals" "0"
-		"model" "models/props_junk/wood_crate001a.mdl"
-		"renderamt" "255"
-		"rendercolor" "255 255 255"
-		"skin" "0"
-		"solid" "0"
-		"origin" "360.803 -376.205 84.1958"
-		editor
-		{
-			"color" "255 255 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-			"logicalpos" "[500 4000]"
-		}
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 4000]"
 	}
 }
 entity
@@ -115636,8 +115633,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[381.741 3183.94 227.709]"
-		"look" "[387.772 3218.42 214.412]"
+		"position" "[-104.43 3697.4 -117.888]"
+		"look" "[-141.088 3704.87 -119.456]"
 	}
 }
 cordons
