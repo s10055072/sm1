@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8755"
-	"mapversion" "779"
+	"mapversion" "782"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "779"
+	"mapversion" "782"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -73938,7 +73938,7 @@ entity
 	"classname" "weapon_spawn"
 	"angles" "0 240 90"
 	"body" "0"
-	"count" "5"
+	"count" "1"
 	"disableshadows" "0"
 	"skin" "0"
 	"solid" "6"
@@ -73961,7 +73961,7 @@ entity
 	"classname" "weapon_spawn"
 	"angles" "0 345 90"
 	"body" "0"
-	"count" "5"
+	"count" "1"
 	"disableshadows" "0"
 	"skin" "0"
 	"solid" "6"
@@ -111967,12 +111967,12 @@ entity
 	"classname" "weapon_spawn"
 	"angles" "0 30 90"
 	"body" "0"
-	"count" "5"
+	"count" "1"
 	"disableshadows" "0"
 	"skin" "0"
 	"solid" "6"
 	"spawn_without_director" "0"
-	"weapon_selection" "tier2_any"
+	"weapon_selection" "any"
 	"weaponskin" "-1"
 	"origin" "1273.54 1483.17 209.538"
 	editor
@@ -115633,8 +115633,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-104.43 3697.4 -117.888]"
-		"look" "[-141.088 3704.87 -119.456]"
+		"position" "[707.426 -231.283 114.52]"
+		"look" "[670.151 -234.466 112.952]"
 	}
 }
 cordons
