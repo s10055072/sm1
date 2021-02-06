@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8755"
-	"mapversion" "602"
+	"mapversion" "603"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "602"
+	"mapversion" "603"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -56600,7 +56600,7 @@ entity
 		side
 		{
 			"id" "7864"
-			"plane" "(2480 592 -224) (2528 592 -224) (2528 576 -224)"
+			"plane" "(2480 576 -256) (2480 584 -256) (2528 584 -256)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -56611,7 +56611,7 @@ entity
 		side
 		{
 			"id" "7863"
-			"plane" "(2480 576 -512) (2528 576 -512) (2528 592 -512)"
+			"plane" "(2480 584 -512) (2480 576 -512) (2528 576 -512)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -56622,7 +56622,7 @@ entity
 		side
 		{
 			"id" "7862"
-			"plane" "(2480 592 -224) (2480 576 -224) (2480 576 -512)"
+			"plane" "(2480 576 -512) (2480 584 -512) (2480 584 -256)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -56633,7 +56633,7 @@ entity
 		side
 		{
 			"id" "7861"
-			"plane" "(2528 592 -512) (2528 576 -512) (2528 576 -224)"
+			"plane" "(2528 584 -512) (2528 576 -512) (2528 576 -256)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -56644,7 +56644,7 @@ entity
 		side
 		{
 			"id" "7860"
-			"plane" "(2528 592 -224) (2480 592 -224) (2480 592 -512)"
+			"plane" "(2480 584 -512) (2528 584 -512) (2528 584 -256)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -56655,7 +56655,7 @@ entity
 		side
 		{
 			"id" "7859"
-			"plane" "(2528 576 -512) (2480 576 -512) (2480 576 -224)"
+			"plane" "(2528 576 -512) (2480 576 -512) (2480 576 -256)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -75040,8 +75040,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[4970.71 -165.398 -217.481]"
-		"look" "[4933.6 -285.159 -235.101]"
+		"position" "[2562.27 738.552 -102.212]"
+		"look" "[2505.69 658.393 -182.234]"
 	}
 }
 cordons
