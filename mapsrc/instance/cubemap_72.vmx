@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8755"
-	"mapversion" "2"
+	"mapversion" "3"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2"
+	"mapversion" "3"
 	"classname" "worldspawn"
 	"skyname" "sky_l4d_rural02_hdr"
 	"maxpropscreenwidth" "-1"
@@ -33,7 +33,7 @@ world
 		side
 		{
 			"id" "1"
-			"plane" "(-32 32 0) (32 32 0) (32 -32 0)"
+			"plane" "(-16 16 0) (16 16 0) (16 -16 0)"
 			"material" "TOOLS/TOOLSSKIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -44,7 +44,7 @@ world
 		side
 		{
 			"id" "2"
-			"plane" "(-32 -32 -72) (32 -32 -72) (32 32 -72)"
+			"plane" "(-16 -16 -72) (16 -16 -72) (16 16 -72)"
 			"material" "TOOLS/TOOLSSKIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -55,7 +55,7 @@ world
 		side
 		{
 			"id" "3"
-			"plane" "(-32 32 0) (-32 -32 0) (-32 -32 -72)"
+			"plane" "(-16 16 0) (-16 -16 0) (-16 -16 -72)"
 			"material" "TOOLS/TOOLSSKIP"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -66,7 +66,7 @@ world
 		side
 		{
 			"id" "4"
-			"plane" "(32 32 -72) (32 -32 -72) (32 -32 0)"
+			"plane" "(16 16 -72) (16 -16 -72) (16 -16 0)"
 			"material" "TOOLS/TOOLSSKIP"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -77,7 +77,7 @@ world
 		side
 		{
 			"id" "5"
-			"plane" "(32 32 0) (-32 32 0) (-32 32 -72)"
+			"plane" "(16 16 0) (-16 16 0) (-16 16 -72)"
 			"material" "TOOLS/TOOLSSKIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -88,7 +88,7 @@ world
 		side
 		{
 			"id" "6"
-			"plane" "(32 -32 -72) (-32 -32 -72) (-32 -32 0)"
+			"plane" "(16 -16 -72) (-16 -16 -72) (-16 -16 0)"
 			"material" "TOOLS/TOOLSSKIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
