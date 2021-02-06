@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "7971"
-	"mapversion" "11"
+	"editorbuild" "8755"
+	"mapversion" "13"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "11"
+	"mapversion" "13"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1740,6 +1740,7 @@ entity
 	"spawn_without_director" "0"
 	"spawnflags" "0"
 	"weapon_selection" "any_rifle"
+	"weaponskin" "-1"
 	"origin" "-96 64 -34.835"
 	editor
 	{
@@ -1763,6 +1764,7 @@ entity
 	"spawn_without_director" "0"
 	"spawnflags" "0"
 	"weapon_selection" "any_sniper_rifle"
+	"weaponskin" "-1"
 	"origin" "-96 80 -34.835"
 	editor
 	{
@@ -1786,6 +1788,7 @@ entity
 	"spawn_without_director" "0"
 	"spawnflags" "0"
 	"weapon_selection" "tier2_shotgun"
+	"weaponskin" "-1"
 	"origin" "-96 96 -34.835"
 	editor
 	{
@@ -1921,6 +1924,7 @@ entity
 	"item7" "0"
 	"item8" "0"
 	"spawnflags" "0"
+	"weaponskin" "-1"
 	"origin" "112 -48 3"
 	editor
 	{
@@ -1950,6 +1954,7 @@ entity
 	"item7" "0"
 	"item8" "0"
 	"spawnflags" "0"
+	"weaponskin" "-1"
 	"origin" "112 -64 3"
 	editor
 	{
@@ -1969,6 +1974,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"spawnflags" "0"
+	"weaponskin" "-1"
 	"origin" "96 -96 -5"
 	editor
 	{
@@ -1988,6 +1994,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"spawnflags" "0"
+	"weaponskin" "-1"
 	"origin" "96 -112 -5"
 	editor
 	{
@@ -2007,6 +2014,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"spawnflags" "0"
+	"weaponskin" "-1"
 	"origin" "112 -96 -5"
 	editor
 	{
@@ -2026,6 +2034,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"spawnflags" "0"
+	"weaponskin" "-1"
 	"origin" "88 -80 -5"
 	editor
 	{
@@ -2071,6 +2080,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"spawnflags" "0"
+	"weaponskin" "-1"
 	"origin" "96 30.9954 -5"
 	editor
 	{
@@ -2276,6 +2286,44 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 8000]"
+	}
+}
+entity
+{
+	"id" "579"
+	"classname" "weapon_melee_spawn"
+	"angles" "0 248 -90"
+	"count" "5"
+	"melee_weapon" "any"
+	"model" "models/weapons/melee/w_fireaxe.mdl"
+	"solid" "6"
+	"weaponskin" "-1"
+	"origin" "89.4423 -13.8826 -3.69325"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "591"
+	"classname" "weapon_melee_spawn"
+	"angles" "0 295 -90"
+	"count" "5"
+	"melee_weapon" "any"
+	"model" "models/weapons/melee/w_fireaxe.mdl"
+	"solid" "6"
+	"weaponskin" "-1"
+	"origin" "88 0 -3.69325"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras
