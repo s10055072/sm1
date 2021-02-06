@@ -14,7 +14,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 }
 world
@@ -22,18 +22,18 @@ world
 	"id" "1"
 	"mapversion" "4"
 	"classname" "worldspawn"
-	"detailmaterial" "detail/detailsprites"
-	"detailvbsp" "detail.vbsp"
-	"maxpropscreenwidth" "-1"
-	"musicpostfix" "Waterfront"
 	"skyname" "sky_l4d_rural02_hdr"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"musicpostfix" "Waterfront"
 	solid
 	{
-		"id" "125"
+		"id" "2"
 		side
 		{
 			"id" "1"
-			"plane" "(0 16 16) (32 16 16) (32 -16 16)"
+			"plane" "(-16 16 0) (16 16 0) (16 -16 0)"
 			"material" "TOOLS/TOOLSSKIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -44,7 +44,7 @@ world
 		side
 		{
 			"id" "2"
-			"plane" "(0 -16 -16) (32 -16 -16) (32 16 -16)"
+			"plane" "(-16 -16 -64) (16 -16 -64) (16 16 -64)"
 			"material" "TOOLS/TOOLSSKIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -55,7 +55,7 @@ world
 		side
 		{
 			"id" "3"
-			"plane" "(0 16 16) (0 -16 16) (0 -16 -16)"
+			"plane" "(-16 16 0) (-16 -16 0) (-16 -16 -64)"
 			"material" "TOOLS/TOOLSSKIP"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -66,7 +66,7 @@ world
 		side
 		{
 			"id" "4"
-			"plane" "(32 16 -16) (32 -16 -16) (32 -16 16)"
+			"plane" "(16 16 -64) (16 -16 -64) (16 -16 0)"
 			"material" "TOOLS/TOOLSSKIP"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -77,7 +77,7 @@ world
 		side
 		{
 			"id" "5"
-			"plane" "(32 16 16) (0 16 16) (0 16 -16)"
+			"plane" "(16 16 0) (-16 16 0) (-16 16 -64)"
 			"material" "TOOLS/TOOLSSKIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -88,7 +88,7 @@ world
 		side
 		{
 			"id" "6"
-			"plane" "(32 -16 -16) (0 -16 -16) (0 -16 16)"
+			"plane" "(16 -16 -64) (-16 -16 -64) (-16 -16 0)"
 			"material" "TOOLS/TOOLSSKIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -98,7 +98,7 @@ world
 		}
 		editor
 		{
-			"color" "0 147 228"
+			"color" "0 233 254"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -106,38 +106,38 @@ world
 }
 entity
 {
-	"id" "2"
+	"id" "3"
 	"classname" "prop_static"
 	"angles" "0 0 0"
 	"disableselfshadowing" "1"
 	"disablevertexlighting" "1"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/props/cs_office/light_security.mdl"
+	"model" "models/props_lighting/lightbulb01a.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "0 0 0"
+	"origin" "-0.0147209 -25.0483 -48.89"
 	editor
 	{
 		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
+		"logicalpos" "[0 500]"
 	}
 }
 entity
 {
-	"id" "95"
+	"id" "42"
 	"classname" "light"
 	"_castentityshadow" "1"
-	"_light" "225 244 240 50"
+	"_light" "224 232 233 50"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "0.5"
 	"_quadratic_attn" "1"
 	"_shadoworiginoffset" "0 0 0"
-	"origin" "64 0 -16"
+	"origin" "0 0 -48"
 	editor
 	{
 		"color" "220 30 220"
