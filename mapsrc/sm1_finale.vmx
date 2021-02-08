@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8755"
-	"mapversion" "68"
+	"mapversion" "69"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "68"
+	"mapversion" "69"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -14452,6 +14452,51 @@ entity
 	"angles" "-0 0 0"
 	"file" "instance/cubemap_72.vmf"
 	"origin" "640.612 1168 416"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 -12268]"
+	}
+}
+entity
+{
+	"id" "1999"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instance/cubemap_72.vmf"
+	"origin" "2064 -384 560"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 -12268]"
+	}
+}
+entity
+{
+	"id" "2002"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instance/cubemap_72.vmf"
+	"origin" "2096 -384 560"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 -12268]"
+	}
+}
+entity
+{
+	"id" "2005"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instance/cubemap_72.vmf"
+	"origin" "2256 -384 560"
 	editor
 	{
 		"color" "220 30 220"
