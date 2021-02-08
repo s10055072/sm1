@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8755"
-	"mapversion" "35"
+	"mapversion" "36"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "35"
+	"mapversion" "36"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -2495,6 +2495,49 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "839"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "1"
+	"disablevertexlighting" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_interiors/lightbulb03a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "1"
+	"solid" "6"
+	"origin" "-8 -24 204"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "896"
+	"classname" "light"
+	"_castentityshadow" "1"
+	"_light" "220 233 232 50"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "0.5"
+	"_quadratic_attn" "1"
+	"_shadoworiginoffset" "0 0 0"
+	"style" "10"
+	"origin" "16 -24 136"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
 	}
 }
 cameras
