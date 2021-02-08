@@ -8,7 +8,7 @@
 	"Version"	"1"
 
 	// These values control how the campaign shows up in the campaign list and the in-game UI.
-	"DisplayTitle"	"SM1"
+	"DisplayTitle"	"Escape the Complex"
 	"Description"	"An epic tale of zombies getting shot in the head."
 	"Author"	"s10055072"
 
@@ -118,6 +118,10 @@
 			{
 				"Map" "sm1_site"
 				"DisplayName" "Town"
+			"5"
+			{
+				"Map" "sm1_finale"
+				"DisplayName" "The Escape"
 			}
 		}
 	}
