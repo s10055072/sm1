@@ -118,6 +118,7 @@
 			{
 				"Map" "sm1_site"
 				"DisplayName" "Town"
+			}
 			"5"
 			{
 				"Map" "sm1_finale"
